@@ -21,7 +21,7 @@
     <title>CloStore</title>
   </head>
 
-  <body background="fondo.JPG">
+  <body background="fondo.jpg">
     <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">

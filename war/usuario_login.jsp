@@ -23,7 +23,7 @@
 	</style>
   </head>
 
-  <body background="fondo.JPG">
+  <body background="fondo.jpg">
     <nav class="navbar navbar-default">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
@@ -37,7 +37,7 @@
         	<li><a href="index.html"><span class="glyphicon glyphicon-log-out"></span><font color="slategray"> Logout</font></a></li>
       	  </ul>
 		  <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><img src="/mostrarcarrito.JPG"/><font color="slategray"> Añadir al carrito</font></a></li>
+            <li><a href="#"><img src="/mostrarcarrito.jpg"/><font color="slategray"> Añadir al carrito</font></a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><font color="slategray"> <%=username %></font></a></li>
@@ -70,7 +70,7 @@
 			    <div class="carousel-inner" role="listbox">
 			
 			      <div class="item active">
-			        <img src="/elegantes1.JPG" alt="Camisas" width="384" height="384">
+			        <img src="/elegantes1.jpg" alt="Camisas" width="384" height="384">
 			        <div class="carousel-caption">
 			          <h3>Camisas</h3>
 			          <p>Camisas para todos los gustos</p>
@@ -78,7 +78,7 @@
 			      </div>
 			      
 			      <div class="item">
-			        <img src="/elegantes2.JPG" alt="Ternos" width="384" height="384">
+			        <img src="/elegantes2.jpg" alt="Ternos" width="384" height="384">
 			        <div class="carousel-caption">
 			          <h3>Ternos</h3>
 			          <p>Ternos elegantes y actuales.</p>
@@ -86,7 +86,7 @@
 			      </div>
 			    
 			      <div class="item">
-			        <img src="elegantes3.JPG" alt="Sueter" width="384" height="384">
+			        <img src="elegantes3.jpg" alt="Sueter" width="384" height="384">
 			        <div class="carousel-caption">
 			          <h3>Sueter</h3>
 			          <p>Un estilo mas fresco.</p>
