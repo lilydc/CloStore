@@ -8,7 +8,7 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</head>
 	
-	<body background="fondo.jpg">
+	<body background="fondo.JPG">
     <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -52,19 +52,23 @@
    			<label for="contraseniaCliente">Confirme la contraseña *</label>
    			<input type="password" class="form-control" placeholder="Ingrese nuevamente la contraseña" id="confcontrasenia" name="confcontrasenia" required>
    		</div>
-	   		<script type="text/javascript">
-	   		function validacion(form){ 
-			   	contrasenia = document.formCrearCliente.contrasenia.value 
-			   	confcontrasenia = document.formCrearCliente.confcontrasenia.value 
-			
-			   	if (contrasenia == confcontrasenia) 
-			   		alert("CORRECTO") 
-			   	else{ 
-			      	alert("Las contraseñas no coinciden");
-			      	return false;
-			    }  	 
-			} 
-			</script>
+   		
+   		<!-- Validacion Contraseña :P -->
+   		<script type="text/javascript">
+   		function validacion(form){ 
+		   	contrasenia = document.formCrearCliente.contrasenia.value 
+		   	confcontrasenia = document.formCrearCliente.confcontrasenia.value 
+		
+		   	if (contrasenia == confcontrasenia) 
+		      	return true; 
+		   	else{ 
+		      	alert("Las contraseñas no coinciden");
+		      	return false;
+		    }  	 
+		}
+   		</script>
+   		
+   		
    		</div>
    		
    		<div class="col-xs-2">
